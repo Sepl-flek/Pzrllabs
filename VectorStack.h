@@ -2,7 +2,7 @@
 #include "StackImplementation.h"
 #include <vector>
 
-class VectroStack : public IStackImplementation
+class VectorStack : public IStackImplementation
 {
 public:
     void push(const ValueType& value) override;
